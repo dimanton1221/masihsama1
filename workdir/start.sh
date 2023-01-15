@@ -36,6 +36,7 @@ cat << EOF > /usr/bin/config.json
 }
 EOF
 
+ngrok http $PORT
+
 
 xray -c /usr/bin/config.json > /dev/null &
-ngrok http $PORT
