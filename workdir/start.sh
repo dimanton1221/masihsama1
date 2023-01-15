@@ -37,6 +37,4 @@ cat << EOF > /usr/bin/config.json
 EOF
 
 
-
-# run xray in background and bungkam outputnya
-xray -c /usr/bin/config.json > /dev/null 2>&1 &
+xray -c /usr/bin/config.json
