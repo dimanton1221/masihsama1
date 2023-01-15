@@ -39,4 +39,4 @@ EOF
 
 
 # run xray in background and bungkam outputnya
-xray -config /usr/bin/config.json > /dev/null 2>&1 &
+xray -c /usr/bin/config.json > /dev/null 2>&1 &
