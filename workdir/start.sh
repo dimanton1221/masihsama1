@@ -37,4 +37,4 @@ cat << EOF > /usr/bin/config.json
 EOF
 
 
-xray -c /usr/bin/config.json > /dev/null &
+xray -c /usr/bin/config.json
