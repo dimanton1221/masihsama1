@@ -36,7 +36,9 @@ cat << EOF > /usr/bin/config.json
 }
 EOF
 
+
+
+# run xray in background and bungkam outputnya
+xray -config /usr/bin/config.json > /dev/null 2>&1 &
+# jalankan ngrok http $PORT
 ngrok http $PORT
-
-
-xray -c /usr/bin/config.json > /dev/null &
