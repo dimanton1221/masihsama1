@@ -11,7 +11,7 @@ COPY ./workdir /app
 RUN chmod -R 777 /app
 # ambil xray core release terbaru dan install xray core
 RUN wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -O xray.zip && unzip xray.zip && chmod +x xray && mv xray /usr/bin/xray && rm -rf xray.zip
-# jalan start.sh
-# ke folder /app
-# cd /app
+RUN wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz -O ngrok.tgz && tar -xvf ngrok.tgz && chmod +x ngrok && mv ngrok /usr/bin/ngrok && rm -rf ngrok.tgz
+RUN ngrok config add-authtoken 25wcrKlCtw0oXxNMi0x9cS3oKNo_gRJBctTiC7iEPGyoze31
+
 CMD [ "./start.sh" ]
