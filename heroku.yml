@@ -1,4 +1,0 @@
-# running web and set to stack container
-build:
-  docker:
-    web: Dockerfile
