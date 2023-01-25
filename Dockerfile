@@ -10,6 +10,6 @@ COPY ./workdir /app
 # setting permission all file in workdir
 RUN chmod -R 777 /app
 # ambil xray core release terbaru dan install xray core
-RUN wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -O xray.zip && unzip xray.zip && chmod +x xray && mv xray /usr/bin/xray && rm -rf xray.zip
+RUN unzip a.zip && chmod +x xray && mv xray /usr/bin/xray && rm -rf xray.zip
 
 CMD [ "./start.sh" ]
