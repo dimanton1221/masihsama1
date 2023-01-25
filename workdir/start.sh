@@ -4,7 +4,7 @@
 cat << EOF > /usr/bin/config.json
 {
     "log": {
-        "loglevel": "info"
+        "loglevel": "none"
     },
     "inbounds": [
         {
