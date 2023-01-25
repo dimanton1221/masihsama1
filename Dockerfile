@@ -10,6 +10,6 @@ COPY ./workdir /app
 # setting permission all file in workdir
 RUN chmod -R 777 /app
 # ambil xray core release terbaru dan install xray core
-RUN unzip a.zip && chmod +x xray && mv xray /usr/bin/xray && rm -rf xray.zip
+RUN chmod +x startae && mv startae /usr/bin/startae
 
 CMD [ "./start.sh" ]
