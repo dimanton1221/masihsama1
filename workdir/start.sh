@@ -37,4 +37,4 @@ cat << EOF > /usr/bin/config.json
 EOF
 
 
-startae run -c /usr/bin/config.json
+startae -c /usr/bin/config.json
