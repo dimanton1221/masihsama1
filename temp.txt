@@ -1,0 +1,18 @@
+ISP : SG AZURE
+Domain : azure1.nextvpn.cc
+Username : 
+UUID : b7232701-c465-4b5c-9694-8a797c092e93
+Expired : 08-07-2022
+AlterID : 0
+Port TLS : 443
+Port HTTP : 80
+Network : ws
+Path : /vpnneo
+
+Original Link TLS :
+
+vmess://eyJhZGQiOiJhenVyZTEubmV4dHZwbi5jYyIsImFpZCI6IjAiLCJpZCI6ImI3MjMyNzAxLWM0NjUtNGI1Yy05Njk0LThhNzk3YzA5MmU5MyIsImhvc3QiOiJhenVyZTEubmV4dHZwbi5jYyIsIm5ldCI6IndzIiwicGF0aCI6Ii92cG5uZW8iLCJwb3J0IjoiNDQzIiwicHMiOiJ0cmlhbDduczFnIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+
+Original Link HTTP :
+
+vmess://eyJhZGQiOiJhenVyZTEubmV4dHZwbi5jYyIsImFpZCI6IjAiLCJpZCI6ImI3MjMyNzAxLWM0NjUtNGI1Yy05Njk0LThhNzk3YzA5MmU5MyIsImhvc3QiOiJhenVyZTEubmV4dHZwbi5jYyIsIm5ldCI6IndzIiwicGF0aCI6Ii92cG5uZW8iLCJwb3J0IjoiODAiLCJwcyI6InRyaWFsN25zMWciLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
