@@ -8,7 +8,7 @@ cat << EOF > /usr/bin/config.json
     },
     "inbounds": [
         {
-            "port": $PORT,
+            "port": 8080,
             "protocol": "vless",
             "settings": {
                 "clients": [
